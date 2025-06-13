@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style8.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Cormorant+Garamond&family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="imagen/logoCorona.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Luxury Dial | Contacto</title>
+</head>
+<body>
+  <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="imagen/logoCorona.png" alt="Luxury Dial Logo" class="logo">
+                <h1><a href="index.html">Luxury Dial</a></h1>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar" id="navbar">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/about.html">Sobre Nosotros</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                    <a href="/buscar.html"><i class="fas fa-search"></i></a>
+                </ul>
+                <div class="navbar-icons">
+                    <a href="/login.html" onclick="toggleLogin()"><i class="fas fa-user"></i></a>
+                    <a href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+<main>
+<section>
+  <article>
+    <div class="more-contect">
+      <div class="info-contect">
+          <div class="text-contect">
+              <h3>Detalle del formulario</h3>
+              <p>El formulario de contacto está diseñado para que los clientes puedan comunicarse de manera sencilla y directa. Incluye campos esenciales como nombre, teléfono, correo electrónico y un área para escribir un mensaje detallado, lo que permite al equipo de atención comprender mejor la consulta o solicitud del usuario. Al hacer clic en el botón “Enviar”, la información es enviada automáticamente al correo del responsable de atención, garantizando una respuesta oportuna. Este formulario es ideal para resolver dudas, recibir sugerencias o gestionar cualquier tipo de asistencia que el cliente requiera.</p>
+          </div>
+      </div>
+    </div>
+  </article>
+</section>
+</main> 
+<aside>
+  <div class="formulario">
+    <!--<form action="https://formspree.io/f/xqabprjq" id="formulario"> -->
+    <form action="https://formsubmit.co/joaquindevige25@gmail.com" id="formulario" method="POST">
+
+
+      <h2>Formulario de contacto</h2>
+
+      <div class="input-group">
+        
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="Email" readonly>
+
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" placeholder="Mensaje" cols="30" rows="5"></textarea>
+
+        <button type="submit" class="btn" id="enviarBtn" value="enviar">Enviar</button>
+
+      </div>
+    </form>
+  </div>
+</aside>
+
+    <footer>
+        <p>© 2025 Luxury Dial.<a href="politics.html"> Todos los derechos reservados.</a></p>
+    </footer>
+    <script src="js/contact.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/menu_toggle.js"></script>
+    <script src="js/user_session.js"></script>
+</body>
+</html>

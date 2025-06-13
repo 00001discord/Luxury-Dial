@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e8e4db;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Updated Header */
+header {
+    position: fixed;
+    background: #1a1a1a;
+    padding: 10px 20px;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top:0px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo {
+    max-width: 30px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    margin-top: 4px;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    justify-content: right;
+}
+
+.navbar ul li {
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #d4af37;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-icons a {
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-icons a:hover {
+    color: #d4af37;
+    
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar a:hover, .navbar a.active {
+    color: #d4af37; /* Hover amarillo */
+   
+}
+
+.navbar i {
+    margin-right: 8px;
+}
+
+.fa-magnifying-glass {
+    margin-top: 4px;
+}
+
+#cart-count {
+    position: absolute; /* Posiciona la bolita dentro del contenedor relativo */
+    top: 3px; /* Ajusta la posición vertical */
+    background-color: #d4af37;
+    color: #fff;
+    font-size: 10px; /* Reducido para mejor ajuste en el círculo */
+    width: 18px; /* Tamaño fijo para círculo perfecto */
+    height: 18px;
+    text-align: center; /* Centra el texto horizontalmente */
+    border-radius: 50%; /* Círculo perfecto */
+    margin-left: -6px; /* Ajusta la posición horizontal */
+    display: inline-flex; /* Mejor control de centrado */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Sombra más suave */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.user-name{
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px; /* Ajuste para que el contenido no quede detrás del header fijo */
+    padding-top: 20px; /* Espacio adicional para el contenido */
+}
+
+.container h1 {
+    text-align: center;
+}
+
+#tracking-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#tracking-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para mejor control de layout */
+    align-items: center; /* Centrar elementos */
+    gap: 15px; /* Espacio entre elementos */
+}
+
+.container-main label {
+    display: block;
+    width: 100%; /* Ocupar todo el ancho disponible */
+    text-align: center; /* Centrar texto del label */
+    margin-bottom: 0; /* Ya tenemos gap */
+    color: #555;
+}
+
+.container-main input[type="text"] {
+    padding: 8px;
+    width: 100%; /* Aumentado a 100% para que se adapte mejor en pantallas pequeñas */
+    max-width: 300px; /* Limitar ancho máximo para pantallas grandes */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    transition: border-color 0.5s ease;
+    border-radius: 5px;
+}
+
+.container-main input[type="text"]:focus {
+    border: 1px solid #b89b2f;
+    outline: none;
+}
+
+.container-main button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #d4af37;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.container-main button[type="submit"]:hover {
+    background-color: #b89b2f;
+    transform: scale(1.05);
+}
+
+#create-shipment-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#create-shipment-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#create-shipment-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    text-align: left;
+}
+
+#create-shipment-form input[type="text"],
+#create-shipment-form input[type="email"], /* Este tipo de input no se usa en este formulario, pero el selector es válido */
+#create-shipment-form input[type="number"] {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    transition: border-color 0.5s ease;
+    border-radius: 5px;
+    outline: none;
+}
+
+#create-shipment-form input[type="text"]:focus,
+#create-shipment-form input[type="email"]:focus,
+#create-shipment-form input[type="number"]:focus {
+    border: 1px solid #b89b2f;
+    outline: none;
+}
+
+#create-shipment-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #d4af37;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#create-shipment-form button[type="submit"]:hover {
+    background-color: #b89b2f;
+    transform: scale(1.05);
+}
+
+#result {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#result h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#result table th, #result table td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+#result table th {
+    background-color: #f8f8f8;
+    color: #555;
+}
+
+footer {
+    background: linear-gradient(180deg, #1a1a1a, #2b2b2b);
+    padding: 40px;
+    text-align: center;
+    color: #d4af37;
+    font-size: 15px;
+    border-top: 4px solid #d4af37;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    bottom: 0px;
+    position: block !important;
+}
+
+footer a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.error {
+    color: #d9534f;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.success {
+    color: #5cb85c;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+input.input-error {
+    border: 1px solid #d9534f !important; /* Rojo para error */
+}
+
+/* Opcional: Estilo para inputs con foco */
+input:focus {
+    border: 1px solid #b89b2f; /* Borde amarillo al enfocar */
+    outline: none;
+}
+
+@media (max-width: 875px) {
+    .menu-toggle {
+        display: block !important;
+        color: #fff;
+    }
+
+    .navbar {
+        display: none !important;
+        position: absolute;
+        top: 51px; /* Ajuste para que se vea debajo del header */
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background-color: #1a1a1a;
+        z-index: 3;
+    }
+
+    .navbar.active {
+        display: block !important;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .navbar-icons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    /* Estos estilos hero, products, etc. no están en el HTML proporcionado pero los dejo por si son de otro archivo CSS */
+    .hero {
+        padding: 140px 20px;
+    }
+
+    .hero-content {
+        margin-top: 60px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .products {
+        margin: 90px auto;
+        padding: 0 20px;
+    }
+
+    .product-grid {
+        gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .product {
+        min-height: 380px;
+        padding: 20px;
+    }
+
+    .notifications {
+        top: 100px;
+        right: 10px;
+        left: 10px;
+    }
+
+    .notification {
+        max-width: 100%;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+}

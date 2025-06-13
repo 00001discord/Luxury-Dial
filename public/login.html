@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="imagen/logoCorona.png">
+    <title>Luxury Dial | Registrarse</title>
+</head>
+<body>
+<header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="imagen/logoCorona.png" alt="Luxury Dial Logo" class="logo">
+                <h1><a href="index.html">Luxury Dial</a></h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/about.html">Sobre Nosotros</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                    <a href="/buscar.html"><i class="fas fa-search"></i></a>
+                </ul>
+                <div class="navbar-icons">
+                    <a href="/login.html" onclick="toggleLogin()"><i class="fas fa-user"></i></a>
+                    <a href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a>
+                </div>
+            </nav>
+        </div>
+</header>
+
+<div id="notifications" class="notifications"></div>
+
+<div class="container-form register">
+    <div class="information">
+        <div class="info-childs">
+            <h2 title="Bienvenido" aria-label="Bienvenido">Bienvenido</h2>
+            <p>Para poder realizar compras en la pagina tienes que Iniciar sesion.</p>
+            <input type="button" value="Iniciar sesion" id="sign-in">
+        </div>
+    </div>
+    <div class="form-information">
+        <div class="form-information-childs">
+            <h2 title="Crear una cuenta" aria-label="Crear tu cuenta">Crear una Cuenta</h2>
+            <div class="icon">
+                <a href="/auth/google" title="Iniciar sesión con Google" aria-label="Iniciar sesión con Google" class="google-login">
+                    <i class="fa-brands fa-google" title="google" aria-label="google"><p><strong>Iniciar sesión en google</strong></p></i>
+                </a>
+            </div>
+            <p aria-label="Pudes usar tu email">o puedes usar tu email para el registro.</p>
+            <form class="form form-register" novalidate>
+                <div>
+                    <label>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nombre Usuario" title="Nombre usuario" aria-label="Nombre usuario" name="userName" required>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" title="Email" aria-label="Email" name="userEmail" required>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Contraseña" id="pass1" title="Contraseña" aria-label="Contraseña" name="userPassword" required>
+                        <i class='bx bx-show-alt'></i>
+                    </label>
+                </div>
+                <input type="submit" value="Registrarse">
+                <div class="alerta-error">Tienes que llenar los campos</div>
+                <div class="alerta-exito">Te registraste correctamente</div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container-form login hide">
+    <div class="information">
+        <div class="info-childs">
+            <h2 title="Hola de nuevo" aria-label="Hola de nuevo">¡¡Hola de nuevo!!</h2>
+            <p>Puedes registrarte para crear una nueva cuenta.</p>
+            <input type="button" value="Registrarse" id="sign-up">
+        </div>
+    </div>
+    <div class="form-information">
+        <div class="form-information-childs">
+            <h2 title="Iniciar sesion" aria-label="Iniciar sesion">Iniciar sesion</h2>
+            <div class="icon">
+                <a href="/auth/google" title="Iniciar sesión con Google" aria-label="Iniciar sesión con Google" class="google-login">
+                    <i class="fa-brands fa-google" title="google" aria-label="google"><p><strong>Iniciar sesión en google</strong></p></i>
+                </a>
+            </div>
+            <p aria-label="Pudes usar tu email"> o iniciar sesion con una cuenta.</p>
+            <form class="form form-login" novalidate>
+                <div>
+                    <label>
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" title="Email" aria-label="Email" name="userEmail" required>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Contraseña" id="pass2" title="Contraseña" aria-label="Contraseña" name="userPassword" required>
+                        <i class='bx bx-show-alt'></i>
+                    </label>
+                </div>
+                <input type="submit" value="Iniciar sesion" aria-label="Click para iniciar sesion" title="Iniciar sesion">
+                <div class="alerta-error">Tienes que llenar los campos</div>
+                <div class="alerta-exito">Inicio de sesion correcto</div>
+                <div class="forget-pass"><p><a href="./ForgotPassword.html">Olvidaste la contraseña?</a></p></div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/eyes_password.js"></script>
+<script src="js/script.js"></script>
+<script src="js/script2.js" defer></script>
+<script src="js/register.js" type="module"></script>
+<script src="js/login_modulo.js" type="module"></script>
+<script src="js/menu_toggle.js"></script>
+<script src="js/user_session.js"></script>
+<script src="js/server.js"></script>
+<script src="js/user.js"></script>
+<script src="js/main.js>"></script>
+</body>
+</html>

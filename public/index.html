@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="imagen/logoCorona.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Luxury Dial</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="imagen/logoCorona.png" alt="Luxury Dial Logo" class="logo">
+                <h1><a href="index.html">Luxury Dial</a></h1>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar" id="navbar" id="navbar">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/about.html">Sobre Nosotros</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                    <a href="/buscar.html" class="search"><i class="fas fa-search"></i></a>
+                </ul>
+                <div class="navbar-icons">
+                    <a href="/login.html" onclick="toggleLogin()"><i class="fas fa-user"></i></a>
+                    <a href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Contenedor para la notificación -->
+    <div id="notifications" class="notifications"></div>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Elegancia y Precisión en Cada Segundo</h2>
+            <p>Descubre nuestra exclusiva colección de relojes de lujo.</p>
+            <a href="#products" class="btn">Ver Colección</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Nuestra Colección</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="imagen/azul-claro.webp" alt="Reloj 1">
+                <h3>Aqua Eternal</h3>
+                <p>Reloj Aqua Eternal.</p>
+                <p class="price">$1,200 USD</p>
+                <button 
+                        type="button"
+                        class="agregarAlCarrito"
+                        data-product-name="Reloj 1">
+                    agregar al carrito
+                </button>
+            </div>
+            <div class="product">
+                <img src="imagen/azul-marino.webp" alt="Reloj 2">
+                <h3>Celestial Vanguard</h3>
+                <p>Reloj Celestial Vanguard.</p>
+                <p class="price">$2,500 USD</p>
+            <button
+                        type="button"
+                        class="agregarAlCarrito"
+                        data-product-name="Reloj 2">
+                    agregar al carrito 
+            </button>
+            </div>
+            <div class="product">
+                <img src="imagen/azul-oscuro.webp" alt="Reloj 3">
+                <h3>Marine Sovereign</h3>
+                <p>Reloj hecho en pequeños diamantes.</p>
+                <p class="price">$3,000 USD</p>
+              <button
+                        type="button"
+                        class="agregarAlCarrito"
+                        data-product-name="Reloj 3">
+                    agregar al carrito 
+            </button>
+            </div>
+            <div class="product">
+                <img src="imagen/azul-verde.webp" alt="Reloj 4">
+                <h3>Turquoise Dynamic</h3>
+                <p> Excepcional y llamativo, este reloj presenta delicados diamantes azules, ofreciendo un toque de color y exclusividad.</p>
+                <p class="price">$8,000 USD</p>
+               <button
+                        type="button"
+                        class="agregarAlCarrito"
+                        data-product-name="Reloj 4">
+                    agregar al carrito
+            </button>
+            </div>
+            <div class="product">
+                <img src="imagen/azul.aquamarino.webp" alt="Reloj 5">
+                <h3>Azure Serene</h3>
+                <p>Para los coleccionistas y fanáticos, una edición especial inspirada en el icónico superhéroe, con detalles únicos y valiosos diamantes.</p>
+                <p class="price">$10,000 USD</p>
+              <button
+                        type="button"
+                        class="agregarAlCarrito"
+                        data-product-name="Reloj 5">
+                    agregar al carrito
+            </button>
+            </div>
+            <div class="product">
+                <img src="imagen/azul.webp" alt="Reloj 6">
+                <h3>Indigo Regal </h3>
+                <p>Un símbolo de pureza y elegancia, este reloj deslumbra con la belleza de pequeños diamantes blancos engastados con precisión.</p>
+                <p class="price">$14,000 USD</p>
+              <button
+                        type="button"
+                        class="agregarAlCarrito"
+                        data-product-name="Reloj 6">
+                    agregar al carrito 
+            </button>
+            </div>
+            <div class="product">
+                <img src="imagen/batmanpng.webp" alt="Reloj 7">
+                <h3>Onyx Imperial</h3>
+                <p>Una pieza audaz y vibrante, destacando por sus singulares diamantes verdes que aportan un toque de originalidad y sofisticación.</p>
+                <p class="price">$15,500 USD</p>
+            <button
+                        type="button"
+                        class="agregarAlCarrito"
+                        data-product-name="Reloj 7">
+                    agregar al carrito 
+            </button>
+            </div>
+            <a href="buscar.html" class="more-product" id="checkout">
+                 <i class="fa fa-plus" aria-hidden="true"></i>
+              <h3>Ver más relojes</h3>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Luxury Dial.<a href="politics.html"> Todos los derechos reservados.</a></p>
+    </footer>
+    <script src="js/carrito.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/buscador.js"></script>
+    <script src="js/menu_toggle.js"></script>
+    <script src="js/user_session.js"></script>
+    <script src="js/server.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

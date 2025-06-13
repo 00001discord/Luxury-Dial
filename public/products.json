@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Aqua Eternal",
+        "image": "imagen/azul-claro.webp",
+        "price": 55120,
+        "color": "azul",
+        "alt": "Aqua Eternal"
+    },
+    {
+        "id": 2,
+        "name": "Celestial Vanguard",
+        "image": "imagen/azul-marino.webp",
+        "price": 82300,
+        "color": "azul",
+        "alt": "Celestial Vanguard"
+    },
+    {
+        "id": 3,
+        "name": "Marine Sovereign",
+        "image": "imagen/azul-oscuro.webp",
+        "price": 120450,
+        "color": "azul",
+        "alt": "Marine Sovereign"
+    },
+    {
+        "id": 4,
+        "name": "Turquoise Dynamic",
+        "image": "imagen/azul-verde.webp",
+        "price": 65600,
+        "color": "azul",
+        "alt": "Turquoise Dynamic"
+    },
+    {
+        "id": 5,
+        "name": "Azure Serene",
+        "image": "imagen/azul.aquamarino.webp",
+        "price": 28350,
+        "color": "azul",
+        "alt": "Azure Serene"
+    },
+    {
+        "id": 6,
+        "name": "Indigo Regal",
+        "image": "imagen/azul.webp",
+        "price": 32870,
+        "color": "azul",
+        "alt": "Indigo Regal"
+    },
+    {
+        "id": 7,
+        "name": "Onyx Imperial",
+        "image": "imagen/batmanpng.webp",
+        "price": 40250,
+        "color": "negro",
+        "alt": "Onyx Imperial"
+    },
+    {
+        "id": 8,
+        "name": "Pearl Urban",
+        "image": "imagen/blanco.webp",
+        "price": 21330,
+        "color": "plata",
+        "alt": "Pearl Urban"
+    },
+    {
+        "id": 9,
+        "name": "Diamond Pure",
+        "image": "imagen/diamantes.webp",
+        "price": 233470,
+        "color": "plata",
+        "alt": "Diamond Pure"
+    },
+    {
+        "id": 10,
+        "name": "Aureum Minimal",
+        "image": "imagen/dorado-clasico.webp",
+        "price": 110710,
+        "color": "oro",
+        "alt": "Aureum Minimal"
+    },
+    {
+        "id": 11,
+        "name": "Golden Celestial",
+        "image": "imagen/dorado.webp",
+        "price": 250000,
+        "color": "oro",
+        "alt": "Golden Celestial"
+    },
+    {
+        "id": 12,
+        "name": "Aurum Nautical",
+        "image": "imagen/dorado2.webp",
+        "price": 165000,
+        "color": "oro",
+        "alt": "Aurum Nautical"
+    },
+    {
+        "id": 13,
+        "name": "Golden Essence",
+        "image": "imagen/dorado3.webp",
+        "price": 135000,
+        "color": "oro",
+        "alt": "Golden Essence"
+    },
+    {
+        "id": 14,
+        "name": "Ebony Silver",
+        "image": "imagen/negro.webp",
+        "price": 13500,
+        "color": "negro",
+        "alt": "Ebony Silver"
+    },
+    {
+        "id": 15,
+        "name": "Shadow Exclusive",
+        "image": "imagen/negro2.webp",
+        "price": 210860,
+        "color": "negro",
+        "alt": "Shadow Exclusive"
+    },
+    {
+        "id": 16,
+        "name": "Platinum Vibrant",
+        "image": "imagen/plata.webp",
+        "price": 120170,
+        "color": "plata",
+        "alt": "Platinum Vibrant"
+    },
+    {
+        "id": 17,
+        "name": "Obsidian Nocturne",
+        "image": "imagen/rojo.webp",
+        "price": 48000,
+        "color": "negro",
+        "alt": "Obsidian Nocturne"
+    },
+    {
+        "id": 18,
+        "name": "Emerald Radiant",
+        "image": "imagen/verde.webp",
+        "price": 85000,
+        "color": "verde",
+        "alt": "Emerald Radiant"
+    },
+    {
+        "id": 19,
+        "name": "Verdant Gala",
+        "image": "imagen/verde2.webp",
+        "price": 175000,
+        "color": "verde",
+        "alt": "Verdant Gala"
+    },
+    {
+        "id": 20,
+        "name": "Jade Marine",
+        "image": "imagen/verde3.webp",
+        "price": 100000,
+        "color": "verde",
+        "alt": "Jade Marine"
+    }
+]

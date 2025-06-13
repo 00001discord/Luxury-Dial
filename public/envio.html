@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/styles10.css">
+    <link rel="icon" href="imagen/logoCorona.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Luxury Dial | Envios</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="imagen/logoCorona.png" alt="Luxury Dial Logo" class="logo">
+                <h1><a href="index.html">Luxury Dial</a></h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/about.html">Sobre Nosotros</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                    <a href="/buscar.html"><i class="fas fa-search"></i></a>
+                </ul>
+                <div class="navbar-icons">
+                    <a href="/login.html" onclick="toggleLogin()"><i class="fas fa-user"></i></a>
+                    <a href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Gestión de Envíos</h1>
+        <!-- Formulario para seguimiento -->
+        <form id="tracking-form">
+
+            <h2>Seguimiento de Envío</h2>
+            <div class="container-main">
+                <label for="tracking-number">Número de Seguimiento:</label>
+                <input type="text" id="tracking-number" placeholder="Ejemplo: 360000000036820" required>
+                <button type="submit">Buscar</button>
+            </div>
+        </form>
+
+        <!-- Formulario para crear envío -->
+
+        <form id="create-shipment-form">
+            <h2>Crear Nuevo Envío</h2>
+            <label for="contract">Contrato:</label>
+            <input type="text" id="contract" placeholder="Ejemplo: CONTRATO123" required>
+            <label for="service-type">Tipo de Servicio:</label>
+            <input type="text" id="service-type" placeholder="Ejemplo: ESTANDAR" required>
+            <label for="client-branch-id">Sucursal Cliente ID:</label>
+            <input type="number" id="client-branch-id" placeholder="Ejemplo: 0" required>
+            <label for="origin-postal-code">Código Postal Origen:</label>
+            <input type="text" id="origin-postal-code" placeholder="Ejemplo: C1425" required>
+            <label for="destination-postal-code">Código Postal Destino:</label>
+            <input type="text" id="destination-postal-code" placeholder="Ejemplo: C1426" required>
+            <label for="mensaje-agradecimiento">Mensaje de agradecimiento:</label>
+            <input type="text" id="mensaje-agradecimiento" placeholder="Gracias por su compra"/>
+            <button type="submit">Crear Envío</button>
+        </form>
+        <div id="result" class="result hidden">
+            <h2>Detalles del Envío</h2>
+            <table>
+            <!-- Se crea una fila para la tabla -->
+                <tr>
+                <!-- Encabezados de la tabla --> 
+                    <th>Número de Envío</th>
+                <!-- Celda de datos para mostrar el número de seguimiento -->
+                    <td id="result-tracking-number"></td>
+                </tr>
+                <tr>
+                    <th>Estado</th>
+                    <td id="result-status"></td>
+                </tr>
+                <tr>
+                    <th>Sucursal de Distribución</th>
+                    <td id="result-branch"></td>
+                </tr>
+                <tr>
+                    <th>Fecha de Creación</th>
+                    <td id="result-date"></td>
+                </tr>
+                <tr>
+                    <th>Fecha Estimada de Entrega</th>
+                    <td id="result-estimated-date"></td>
+                </tr>
+            </table>
+        </div>
+        <p id="error-message" class="error hidden"></p>
+    </div>
+    <footer>
+        <p>© 2025 Luxury Dial.<a href="politics.html"> Todos los derechos reservados.</a></p>
+    </footer>
+    <script src="js/envio.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/buscador.js"></script>
+    <script src="js/menu_toggle.js"></script>
+    <script src="js/user_session.js"></script>
+    <script src="js/server.js"></script>
+    <script src="js/user.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="imagen/logoCorona.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Luxury Dial | Carrito</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="imagen/logoCorona.png" alt="Luxury Dial Logo" class="logo">
+                <h1><a href="index.html">Luxury Dial</a></h1>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar" id="navbar">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/about.html">Sobre Nosotros</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                    <a href="/buscar.html"><i class="fas fa-search"></i></a>
+                </ul>
+                <div class="navbar-icons">
+                    <a href="/login.html" onclick="toggleLogin()"><i class="fas fa-user"></i></a>
+                    <a href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div id="notifications" class="notifications"></div>
+    <section id="cart" class="cart">
+        <div class="cart-header">
+            <i class="fas fa-shopping-cart"></i>
+            <h2>Carrito de Compras</h2>
+        </div>
+        <div id="cart-items" class="cart-items">
+            <p class="empty-cart">El carrito se encuentra vacío</p>
+        </div>
+        <div class="cart-summary">
+    <h3>Resumen de tu Compra</h3>
+    <div class="summary-details">
+        <p>Subtotal: <span id="subtotal">$0.00 USD</span></p>
+        <p>Envío: <span id="shipping">$0.00 USD</span></p>
+        <button type="submit" class="BotonEnvio" id="Btn" value="envio">Envio</button>
+        <p class="total">Total: <span id="total">$0.00 USD</span></p>
+    </div>
+    <button id="checkout">Finalizar Compra</button>
+</div>
+    </section>
+    <footer>
+        <p>© 2025 Luxury Dial.<a href="politics.html"> Todos los derechos reservados.</a></p>
+    </footer>
+    <script defer src="js/carrito.js"></script>
+    <script src="js/menu_toggle.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/user_session.js"></script>
+    <script src="js/server.js"></script>
+    <script src="js/user.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src ="controllers/order.js"></script>
+    <script defer src ="js/redireccionEnvio.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link rel="stylesheet" href="styles/style6.css">
+    <link rel="icon" href="imagen/logoCorona.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="imagen/logoCorona.png" alt="Luxury Dial Logo" class="logo">
+                <h1><a href="index.html">Luxury Dial</a></h1>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar" id="navbar">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/about.html">Sobre Nosotros</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                    <a href="/buscar.html"><i class="fas fa-search"></i></a>
+                </ul>
+                <div class="navbar-icons">
+                    <a href="/login.html" onclick="toggleLogin()"><i class="fas fa-user"></i></a>
+                    <a href="carrito.html"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="product-container">
+        <img src="" alt="Producto" class="product-image" id="productImage">
+        <div class="product-details">
+            <h1 id="productTitle"></h1>
+            <p id="productPrice"></p>
+            <p class="price-discount" id="priceDiscount"></p>
+            <p class="shipping-info">Llega gratis el 21 y el 26/may</p>
+            <p class="shipping-info">Retirá gratis a partir del 23/may en correo y otros puntos</p>
+            <p class="color-info" id="colorInfo"></p>
+            <div class="button-group">
+                <button class="agregarAlCarrito add-to-cart" id="addToCartButton">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="characteristics">
+        <h2>Características del producto</h2>
+        <dl id="productCharacteristics"></dl>
+    </section>
+
+    <footer>
+        <p>© 2025 Luxury Dial.<a href="politics.html"> Todos los derechos reservados.</a></p>
+    </footer>
+
+    <script src="js/buscador.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/menu_toggle.js"></script>
+    <script src="js/user_session.js"></script>
+    <script src="js/server.js"></script>
+    <script src="js/user.js"></script>
+
+    <div id="notifications" class="notifications"></div>
+</body>
+</html>
