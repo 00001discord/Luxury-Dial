@@ -28,7 +28,7 @@
 
 ## 🎯 Propósito del Proyecto
 
-**Luxury Dial** fue creado como una demostración de las capacidades de CSS y JavaScript para manipular elementos del DOM y crear animaciones complejas en tiempo real. El objetivo es ofrecer una representación visualmente atractiva y funcional de un reloj analógico, utilizando únicamente tecnologías web estándar, sin dependencias de librerías o frameworks externos.
+**Luxury Dial** fue creado como una demostración de las capacidades de CSS y JavaScript para manipular elementos del DOM y crear animaciones complejas en tiempo real. El objetivo es ofrecer una representación visualmente atractiva y funcional de un reloj analógico, utilizando únicamente tecnologías web estándar.
 
 ---
 
@@ -47,58 +47,32 @@
 
 * **Diseño Elegante:** Interfaz limpia y minimalista inspirada en los relojes de lujo.
 * **Tiempo Real:** Muestra la hora, minutos y segundos actuales, actualizándose con precisión.
-* **Puro y Ligero:** Creado con HTML, CSS y JS puros. Sin dependencias externas.
+* **Puro y Ligero:** Creado con HTML, CSS y JS puros.
 * **Educativo:** Código bien comentado y estructurado, ideal para aprender sobre transformaciones CSS y manipulación del DOM.
 
 ---
 
-## 🚀 Cómo Usarlo y Ejecutarlo
+## 🚀 Cómo Usarlo
 
-Puedes ejecutar este proyecto de dos maneras: abriendo el archivo directamente o usando un servidor local con Node.js.
-
-### **Método 1: Abrir el archivo directamente**
+Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) instalado en tu sistema.
 
 1.  **Clona el repositorio:**
     ```sh
     git clone [https://github.com/00001discord/Luxury-Dial.git](https://github.com/00001discord/Luxury-Dial.git)
     ```
-2.  **Navega al directorio:**
+2.  **Navega al directorio del proyecto:**
     ```sh
     cd Luxury-Dial
     ```
-3.  **Abre `index.html` en tu navegador.**
-
-### **Método 2: Usar un servidor local (Node.js)**
-
-Para un entorno de desarrollo más robusto, puedes servir los archivos usando `serve`, un paquete de Node.js.
-
-1.  **Prerrequisitos:** Asegúrate de tener [Node.js](https://nodejs.org/) instalado.
-
-2.  **Instala `serve` globalmente:**
+3.  **Instala las dependencias:**
     ```sh
-    npm install -g serve
+    npm install
     ```
-
-3.  **Ejecuta el servidor** desde el directorio raíz del proyecto:
+4.  **Inicia la aplicación:**
     ```sh
-    serve
+    node app.js
     ```
-
-4.  ¡Listo! El servidor te mostrará una URL local (generalmente `http://localhost:3000`) que puedes abrir en tu navegador.
-
----
-
-## 🤝 Cómo Contribuir
-
-¡Las contribuciones hacen que la comunidad de código abierto sea un lugar increíble para aprender y crear! Cualquier contribución que hagas será **muy apreciada**.
-
-Si tienes una sugerencia para mejorar esto, por favor, bifurca el repositorio y crea una pull request.
-
-1.  **Bifurca** el Proyecto (`Fork`).
-2.  Crea tu **Rama de Característica** (`git checkout -b feature/AmazingFeature`).
-3.  **Confirma** tus Cambios (`git commit -m 'feat: Add some AmazingFeature'`).
-4.  **Empuja** a la Rama (`git push origin feature/AmazingFeature`).
-5.  Abre una **Pull Request**.
+5. Abre tu navegador y ve a `http://localhost:3000` (o al puerto que hayas configurado en `app.js`).
 
 ---
 
