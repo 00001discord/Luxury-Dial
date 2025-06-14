@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/8l6i5yH.png" alt="Luxury Dial" width="200"/>
+  <img src="https://i.imgur.com/eOGoDxD.png" alt="Luxury Dial" width="200"/>
 </p>
 
 <h1 align="center">Luxury Dial - E-commerce de Relojes</h1>
