@@ -8,7 +8,6 @@
   Un proyecto colaborativo y académico para el diseño y maquetación de un e-commerce para relojes de lujo.
 </p>
 
-<!-- Insignias -->
 <p align="center">
   <a href="https://github.com/00001discord/Luxury-Dial/stargazers">
     <img src="https://img.shields.io/github/stars/00001discord/Luxury-Dial?style=for-the-badge" alt="Insignia de Estrellas">
@@ -19,9 +18,7 @@
   <a href="https://github.com/00001discord/Luxury-Dial/issues">
     <img src="https://img.shields.io/github/issues/00001discord/Luxury-Dial?style=for-the-badge" alt="Insignia de Issues">
   </a>
-  <a href="https://github.com/00001discord/Luxury-Dial/blob/main/LICENSE">
-    [![MIT License][license-shield]][license-url]
-  </a>
+  [![MIT License][license-shield]][license-url]
 </p>
 
 ---
@@ -49,7 +46,7 @@ El proyecto se enfocó en ofrecer a los estudiantes una experiencia real de desa
 
 <p align="left">
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Insignia de HTML5"><br>
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white" alt="Insignia de CSS3"><br>
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="Insignia de CSS3"><br>
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Insignia de JavaScript"><br>
   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Insignia de Node.js"><br>
   <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="Insignia de SQLite3">
@@ -63,7 +60,7 @@ Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) i
 
 1.  **Clona el repositorio:**
     ```sh
-    git clone https://github.com/00001discord/Luxury-Dial.git
+    git clone [https://github.com/00001discord/Luxury-Dial.git](https://github.com/00001discord/Luxury-Dial.git)
     ```
 2.  **Navega al directorio del proyecto:**
     ```sh
@@ -92,3 +89,6 @@ Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener má
 Tu Nombre - [@TuTwitter](https://twitter.com/tu_twitter) - tu_email@ejemplo.com
 
 Enlace del Proyecto: [https://github.com/00001discord/Luxury-Dial](https://github.com/00001discord/Luxury-Dial)
+
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
+[license-url]: https://github.com/00001discord/Luxury-Dial/blob/main/LICENSE
