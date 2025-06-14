@@ -62,7 +62,7 @@ Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) i
 
 1.  **Clona el repositorio:**
     ```sh
-    git clone [https://github.com/00001discord/Luxury-Dial.git](https://github.com/00001discord/Luxury-Dial.git)
+    git clone https://github.com/00001discord/Luxury-Dial.git
     ```
 2.  **Navega al directorio del proyecto:**
     ```sh
