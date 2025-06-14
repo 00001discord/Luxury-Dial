@@ -27,9 +27,9 @@
 
 ## 📜 Sobre el Proyecto
 
-**Luxury Dial** es un proyecto colaborativo enfocado en el diseño de un e-commerce para relojes de lujo, desarrollado como trabajo académico para estudiantes de diseño web de la Universidad del Aconcagua. Aunque no formo parte de esa institución, participé como líder externo, brindando soporte, guía y conocimientos en la parte de front-end y back-end para ayudar al equipo a construir una web funcional y visualmente atractiva.
+**Luxury Dial** es un proyecto colaborativo enfocado en el diseño de un e-commerce para relojes de lujo, desarrollado como trabajo académico para estudiantes de diseño web de la Universidad del Aconcagua. Aunque no formo parte de esa institución, participé como líder externo, brindando soporte, guía y conocimientos en la parte del front-end y back-end para ayudar al equipo a construir una web funcional y visualmente atractiva.
 
-El proyecto se enfocó en ofrecer a los estudiantes una experiencia real de desarrollo colaborativo, reforzando prácticas de diseño limpio, estructura de componentes y fundamentos de maquetación sin necesidad de back-end, permitiendo que ellos comprendieran el flujo de trabajo de una página e-commerce real.
+El proyecto se enfocó en ofrecer a los estudiantes una experiencia real de desarrollo colaborativo, reforzando prácticas de diseño limpio, estructura de componentes y fundamentos de maquetación con necesidad de back-end, permitiendo que ellos comprendieran el flujo de trabajo de una página e-commerce real.
 
 ---
 
