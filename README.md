@@ -37,7 +37,7 @@ El proyecto se enfocó en ofrecer a los estudiantes una experiencia real de desa
 
 * Diseño y estructura de una tienda de relojes enfocada en lujo y estilo.
 * Colaboración directa con estudiantes de la Facultad de Ciencias Económicas.
-* Liderazgo en la construcción de la interfaz front-end, y un poco del desarrollo del back-end.
+* Liderazgo en la construcción de la interfaz front-end, y un poco del desarrollo back-end.
 * Enfoque educativo, orientado a reforzar conocimientos de diseño web.
 * Layout simple, minimalista y responsive, adaptable a todo tipo de pantallas.
 * Navegación clara y experiencia de usuario enfocada en la presentación de productos.
