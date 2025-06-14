@@ -74,21 +74,14 @@ Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) i
     ```
 4.  **Cambia el Access Token de mercado pago**
     ```sh
-    mercadopago.configure({
     access_token: 'TU ACCESS TOKEN DE MERCADO PAGO'
-    });
     ```
 5.  **Cambia el Client id y el Client secret de google**
     ```sh
-    // Autenticación con Google
-    passport.use(new GoogleStrategy({
-        clientID: 'TU CLIENT ID DE GOOGLE',
-        clientSecret: 'TU CLIENT SECRET DE GOOGLE',
-        callbackURL: '/auth/google/callback',
-    }, (accessToken, refreshToken, profile, done) => {
-        // Aquí podrías guardar el usuario en la base de datos si es necesario
-        return done(null, profile);
-    }));
+        clientID: 'TU CLIENT ID DE GOOGLE'
+    ```
+    ```sh
+        clientSecret: 'TU CLIENT SECRET DE GOOGLE'
     ```
 6.  **Inicia la aplicación:**
     ```sh
