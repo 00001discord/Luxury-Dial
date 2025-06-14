@@ -76,7 +76,7 @@ Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) i
     ```js
     access_token: 'TU ACCESS TOKEN DE MERCADO PAGO'
     ```
-5.  **Cambia el Client id en la linea 66 y el Client secret en la linea 67, los 2 de google, en el 'App.js' **
+5.  **Cambia el Client id en la linea 66 y el Client secret en la linea 67, los 2 de google, en el 'App.js'**
     ```js
     clientID: 'TU CLIENT ID DE GOOGLE'
     ```
