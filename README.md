@@ -99,7 +99,7 @@ Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener má
 
 ## 📬 Contacto
 
-Portfolio [00001discord Portfolio](https://00001discord.vercel.app)
+Portfolio: <a href="https://00001discord.vercel.app" target="_blank">00001discord Portfolio</a>
 
 Enlace del Proyecto: [https://github.com/00001discord/Luxury-Dial](https://github.com/00001discord/Luxury-Dial)
 
