@@ -2,10 +2,10 @@
   <img src="https://i.imgur.com/8l6i5yH.png" alt="Luxury Dial" width="200"/>
 </p>
 
-<h1 align="center">Luxury Dial - Reloj Analógico con JS</h1>
+<h1 align="center">Luxury Dial - E-commerce de Relojes</h1>
 
 <p align="center">
-  Un proyecto simple y elegante que demuestra cómo crear un reloj analógico funcional utilizando únicamente HTML, CSS y JavaScript.
+  Un proyecto colaborativo y académico para el diseño y maquetación de un e-commerce para relojes de lujo.
 </p>
 
 <!-- Insignias -->
@@ -26,29 +26,34 @@
 
 ---
 
-## 🎯 Propósito del Proyecto
+## 📜 Sobre el Proyecto
 
-**Luxury Dial** fue creado como una demostración de las capacidades de CSS y JavaScript para manipular elementos del DOM y crear animaciones complejas en tiempo real. El objetivo es ofrecer una representación visualmente atractiva y funcional de un reloj analógico, utilizando únicamente tecnologías web estándar.
+**Luxury Dial** es un proyecto colaborativo enfocado en el diseño de un e-commerce para relojes de lujo, desarrollado como trabajo académico para estudiantes de diseño web de la Facultad de Ciencias Económicas. Aunque no formo parte de esa institución, participé como líder externo, brindando soporte, guía y conocimientos en la parte de front-end para ayudar al equipo a construir una web funcional y visualmente atractiva.
+
+El proyecto se enfocó en ofrecer a los estudiantes una experiencia real de desarrollo colaborativo, reforzando prácticas de diseño limpio, estructura de componentes y fundamentos de maquetación sin necesidad de back-end, permitiendo que ellos comprendieran el flujo de trabajo de una página e-commerce real.
+
+---
+
+## ✨ Características
+
+* Diseño y estructura de una tienda de relojes enfocada en lujo y estilo.
+* Colaboración directa con estudiantes de la Facultad de Ciencias Económicas.
+* Liderazgo en la construcción de la interfaz front-end.
+* Enfoque educativo, orientado a reforzar conocimientos de diseño web.
+* Layout simple, minimalista y responsive, adaptable a todo tipo de pantallas.
+* Navegación clara y experiencia de usuario enfocada en la presentación de productos.
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
 <p align="left">
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Insignia de HTML5">
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="Insignia de CSS3">
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Insignia de JavaScript">
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Insignia de Node.js">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="Insignia de HTML5"><br>
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="Insignia de CSS3"><br>
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Insignia de JavaScript"><br>
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Insignia de Node.js"><br>
+  <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="Insignia de SQLite3">
 </p>
-
----
-
-## ✨ Características
-
-* **Diseño Elegante:** Interfaz limpia y minimalista inspirada en los relojes de lujo.
-* **Tiempo Real:** Muestra la hora, minutos y segundos actuales, actualizándose con precisión.
-* **Puro y Ligero:** Creado con HTML, CSS y JS puros.
-* **Educativo:** Código bien comentado y estructurado, ideal para aprender sobre transformaciones CSS y manipulación del DOM.
 
 ---
 
@@ -58,7 +63,7 @@ Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) i
 
 1.  **Clona el repositorio:**
     ```sh
-    git clone [https://github.com/00001discord/Luxury-Dial.git](https://github.com/00001discord/Luxury-Dial.git)
+    git clone https://github.com/00001discord/Luxury-Dial.git
     ```
 2.  **Navega al directorio del proyecto:**
     ```sh
