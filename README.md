@@ -93,7 +93,7 @@ Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) i
 
 ## 📜 Licencia
 
-Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más información.
+Distribuido bajo la Licencia MIT. Consulta el archivo [`LICENSE`](https://github.com/00001discord/Luxury-Dial/blob/main/LICENSE) para obtener más información.
 
 ---
 
