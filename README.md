@@ -72,11 +72,11 @@ Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) i
     ```sh
     npm install
     ```
-4.  **Cambia el Access Token de mercado pago en la linea 61 del `App.js`**
+4.  **Cambia el Access Token de mercado pago en la linea `61` del `App.js`**
     ```js
     access_token: 'TU ACCESS TOKEN DE MERCADO PAGO'
     ```
-5.  **Cambia el Client id en la linea 66 y el Client secret en la linea 67, los 2 de google, en el `App.js`**
+5.  **Cambia el `Client Id` en la linea `66` y el `Client Secret` en la linea `67`, los 2 de google, en el `App.js`**
     ```js
     clientID: 'TU CLIENT ID DE GOOGLE'
     ```
@@ -99,7 +99,7 @@ Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener má
 
 ## 📬 Contacto
 
-Tu Nombre - [@TuTwitter](https://twitter.com/tu_twitter) - tu_email@ejemplo.com
+Portfolio [00001discord Portfolio](https://00001discord.vercel.app)
 
 Enlace del Proyecto: [https://github.com/00001discord/Luxury-Dial](https://github.com/00001discord/Luxury-Dial)
 
