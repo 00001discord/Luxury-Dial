@@ -72,11 +72,11 @@ Para ejecutar este proyecto, necesitarás tener [Node.js](https://nodejs.org/) i
     ```sh
     npm install
     ```
-4.  **Cambia el Access Token de mercado pago**
+4.  **Cambia el Access Token de mercado pago en la linea **61** del 'App.js'**
     ```js
     access_token: 'TU ACCESS TOKEN DE MERCADO PAGO'
     ```
-5.  **Cambia el Client id y el Client secret de google**
+5.  **Cambia el Client id en la linea **66** y el Client secret en la linea **67** **
     ```js
     clientID: 'TU CLIENT ID DE GOOGLE'
     ```
