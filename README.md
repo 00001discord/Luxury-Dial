@@ -18,8 +18,8 @@
   <a href="https://github.com/00001discord/Luxury-Dial/issues">
     <img src="https://img.shields.io/github/issues/00001discord/Luxury-Dial?style=for-the-badge" alt="Insignia de Issues">
   </a>
-  [![MIT License][license-shield]][license-url]
 </p>
+[![MIT License][license-shield]][license-url]
 
 ---
 
