@@ -25,7 +25,7 @@
 
 ---
 
-## 📜 Sobre el Proyecto - [Link](https://luxury-dial.vercel.app)
+## 📜 Sobre el Proyecto - [Link del proyecto para probar](https://luxury-dial.vercel.app)
 
 **Luxury Dial** es un proyecto colaborativo enfocado en el diseño de un e-commerce para relojes de lujo, desarrollado como trabajo académico para estudiantes de diseño web de la Universidad del Aconcagua. Aunque no formo parte de esa institución, participé como líder externo, brindando soporte, guía y conocimientos en la parte del front-end y back-end para ayudar al equipo a construir una web funcional y visualmente atractiva.
 
